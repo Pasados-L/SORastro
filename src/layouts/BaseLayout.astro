@@ -1,9 +1,12 @@
 ---
-const pageTitle = "Blog Page";
+import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Menu from '../components/Menu.astro';
+
+const { pageTitle } = Astro.props;
+
 ---
 
 <html lang="en">
@@ -29,38 +32,59 @@ import Menu from '../components/Menu.astro';
 
 
 <main>
+	
 <Menu />
 <Header />
 
+<h1>No más Ika 🗿</h1>
+
 <div class="container">
 
-<section>
+<section> 
 
-<h1>CONTENIDO</h1>
+	<h2><i><strong>Agarramela que me crece</strong></i></h2>
+	
+	<p>Aquí yace el momero fuerte que toda su vida dio por sus momos</p>
+	<hr>
 
-<ul>
-      <li><a href="/posts/post-1/">Post 1</a></li>
-       <li><a href="/posts/post-2/">Post 2</a></li>
-      <li><a href="/posts/post-3/">Post 3</a></li>
-</ul>
+	<p>
+		<a href="https://forocoches.com/foro/">This NOT a link re que hacia el mismo chiste 2 veces</a>
+		
+	</p>
+
+    
+
+	
+
+
+
+	<pre><code>Sin cambios reales desde 2004</code></pre>
 
 </section>
 
+
+<section class="small">
+	<h2>Para la racha</h2>
+	<p>Habemus papam</p>
+</section>
+
+
 </div>
+
 
 </main>
 
 <div class="up"><a href="#top">to top</a></div>
 
 <footer>
-	<strong>
-	Oh nigga gimme one more gram!
-	</strong>
+
+
+	sog a 🥷 diii	
 </footer> 
+<slot />
+ <Footer />
 
-	 <Footer />
-
-	 <script>
+ <script>
     import "../scripts/menu.js";
   </script>
 	</body>
