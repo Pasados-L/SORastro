@@ -1,67 +1,15 @@
 ---
-const pageTitle = "Blog Page";
-import '../styles/global.css';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import Menu from '../components/Menu.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogPost from '../components/BlogPost.astro';
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+const pageTitle = "Blog repository";
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		
-
-<header id="top">
-
-<div>Forococos</div>
-
-<nav>
-	<a href="not_found.html">Esto no es un link</a>
-</nav>
-
-</header>
-
-
-<main>
-<Menu />
-<Header />
-
-<div class="container">
-
-<section>
-
-<h1>CONTENIDO</h1>
+<BaseLayout pageTitle={pageTitle}>
+  <h1>CONTENIDO</h1>
 
 <ul>
-      <li><a href="/posts/post-1/">Post 1</a></li>
-       <li><a href="/posts/post-2/">Post 2</a></li>
-      <li><a href="/posts/post-3/">Post 3</a></li>
+  {allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
 </ul>
 
-</section>
+</BaseLayout>
 
-</div>
-
-</main>
-
-<div class="up"><a href="#top">to top</a></div>
-
-<footer>
-	<strong>
-	Oh nigga gimme one more gram!
-	</strong>
-</footer> 
-
-	 <Footer />
-
-	 <script>
-    import "../scripts/menu.js";
-  </script>
-	</body>
-</html>
