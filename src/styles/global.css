@@ -91,7 +91,7 @@ hr {
 }
 
 header {
-	font-size: 50px;
+	font-size: 40px;
 	margin: 10px;
 	display: flex;
 	justify-content: space-between;
@@ -262,6 +262,12 @@ footer {
   .menu {
     display: none;
   }
+}
+
+.Parrafo_Footer {
+	font-size: 1em;
+	color: #732c8a;
+	text-shadow: 1px 1px #A9ABA1;
 }
 
 .contenedor {

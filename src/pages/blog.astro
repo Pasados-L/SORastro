@@ -5,11 +5,13 @@ const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true })
 const pageTitle = "Blog repository";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h1>CONTENIDO</h1>
 
+
+  <h1 style="margin-top: 50px; color:rgb(15, 92, 116)">Reviews</h1>
+<div class="container">
 <ul>
   {allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
 </ul>
-
+</div>
 </BaseLayout>
 
