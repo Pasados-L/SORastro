@@ -5,7 +5,7 @@ pubDate: 2025-11-22
 tags: ["Review", "Progressive_Rock", "Symphonic_Prog", "Argentina", "Crucis", "Gustavo_Montesano"]
 ---
 <div style="text-align: center;">
-  <img src="/images/Homenaje.jpg" alt="Gustavo Montesano" width="500" rounded-xl border-4 border-red-500/>
+  <img src="../images/Homenaje.jpg" alt="Gustavo Montesano" width="500" rounded-xl border-4 border-red-500/>
 </div>
 
 <p style="font-size: 150%;"><strong>Escrito por pasados</strong></p>
