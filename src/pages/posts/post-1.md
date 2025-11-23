@@ -5,7 +5,7 @@ pubDate: 2025-11-22
 tags: ["Review", "Progressive_Rock", "Symphonic_Prog", "Australia", "Sebastian_Hardie", "Mario_Millio"]
 ---
 <div style="text-align: center;">
-  <img src="../images/Four_Moments.jpg" alt="Four_Moments" width="500" rounded-xl border-4 border-red-500/>
+  <img src="../public/images/Four_Moments.jpg" alt="Four_Moments" width="500" rounded-xl border-4 border-red-500/>
 </div>
 
 <p style="font-size: 150%;"><strong>Escrito por pasados</strong></p>

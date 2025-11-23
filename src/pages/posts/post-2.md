@@ -5,7 +5,7 @@ pubDate: 2025-11-22
 tags: ["Review", "Progressive_Rock", "Symphonic_Prog", "Rock_Progressivo_Italiano", "Locanda_Delle_Fate"]
 ---
 <div style="text-align: center;">
-  <img src="../images/forse_le_lucciole_non_si_amano_piu.jpg" alt="forse_le_lucciole_non_si_amano_piu" width="500" rounded-xl border-4 border-red-500/>
+  <img src="../public/images/forse_le_lucciole_non_si_amano_piu.jpg" alt="forse_le_lucciole_non_si_amano_piu" width="500" rounded-xl border-4 border-red-500/>
 </div>
 
 <p style="font-size: 200%;"><strong>Escrito por pasados</strong></p>
