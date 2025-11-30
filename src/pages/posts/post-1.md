@@ -17,7 +17,7 @@ tags: ["Review", "Progressive_Rock", "Symphonic_Prog", "Australia", "Sebastian_H
 - **El epilogo "Rosanna"**
 - **Y la sobreextendida (consideración mía) Openings**
  
-**El paquete completo es termina siendo bastante redondo. Four Moments es el condumio de este álbum. Bella suite con una duración correcta la cual considero un gran ejemplar de una ejecución Progresiva Sinfónica. Simplemente la melodía principal de ella evoluciona excelente, y cuando llegas a la parte 4 acabas en un éxtasis**
+**El paquete completo es termina siendo bastante redondo. Four Moments es el condumio de este álbum. Bella suite con una duración correcta la cual considero un gran ejemplar de una ejecución Progresiva Sinfónica. Simplemente la melodía principal de ella evoluciona excelente y cuando llegas a la parte 4 acabas en un éxtasis (???)**
 
 **Pero cuando crees empezará desde cero, llega "Rosanna" a levantarte y a decirte que esta melodía no ha terminado. Rosanna no es una canción innecesaria, es igual de disfrutable que el resto de Four Moments, su distinción la hace escencial en retrospectiva.**
 
