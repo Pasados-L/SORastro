@@ -11,7 +11,7 @@ tags: ["List", "Top", "Rock", "Personal"]
 
 <p style="font-size: 150%;"><strong>Escrito por pasados</strong></p>
 
-<ol reversed start="50">
+<ol reversed start="50"; style="font-size: 140%;">
     <li>Per al meu amic - Joan Manel Serrat</li>
     <li>Commit This to Memory - Motion City Soundtrack</li>
     <li>the first glass beach album - glass beach</li>
@@ -49,16 +49,16 @@ tags: ["List", "Top", "Rock", "Personal"]
     <li>La Biblia - Vox Dei</li>
     <li>L'Heptade XL - Harmonium</li>
     <li>Tubular Bells - Mike Oldfield</li>
-    <li>Relayer - Yes</li>
+    <li>Fragile - Yes</li>
     <li>Invisible - Invisible </li>
     <li>Si todo hiciera - Crack</li>
-    <li>The Yes Album - Yes</li>
+    <li>Relayer - Yes</li>
     <li>Ommadawn - Mike Oldfield</li>
     <li>De-Loused In The Comatorium - The Mars Volta</li>
     <li>Selling England by the Pound - Genesis</li>
     <li>Harmonium en Tournée - Harmonium</li>
     <li>El Jardin De Los Presentes - Invisible</li>
-    <li>Fragile - Yes</li>
+    <li>The Yes Album - Yes</li>
     <li>Forse Le Lucciole Non Si Amano Piu - Locanda Delle Fate</li>
     <li>Almendra - Almendra</li>
     <li>Close To The Edge - Yes</li>
